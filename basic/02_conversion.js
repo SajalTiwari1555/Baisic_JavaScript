@@ -25,7 +25,7 @@ let IsNumber =" "   //space
  
 let IsBoolean = Boolean(IsNumber)
 
-console.log(IsBoolean)
+// console.log(IsBoolean)
 
 
 // Notes 
@@ -33,3 +33,33 @@ console.log(IsBoolean)
 // 0 => false
 // "" => false
 // "Sajal" => true
+
+
+
+
+// ......................Data Type..................................................................```
+
+// let hello = 18;
+// console.log(typeof (hello));
+// let state = undefined;
+// console.log(typeof(state));
+// console.log(typeof(null));
+
+// ..............................conversion operation..................................................../
+
+// let string ="hello";
+// let string =" "
+// let Isboolean = Boolean(string);;
+// console.log(string)
+// console.log(Isboolean)
+
+
+// ..................................................................................................
+
+// let string ="ttrttrtrtrrr"
+// let string ="789fkkf"
+// let string ="  6789"
+let string =" "
+let Isboolean = Number(string);;
+console.log(string)
+console.log(Isboolean)
