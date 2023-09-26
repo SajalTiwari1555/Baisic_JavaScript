@@ -32,6 +32,6 @@ console.log(Math.floor((Math.random()*10))+1);
 
 // When given value Max and min value in betwwen random number
 const max = 20;
-constmin =10;
-console.log((Math.random()*(max - min + 1)));
+const min =10;
+console.log((Math.floor(Math.random()*(max - min + 1)+min)));
 
