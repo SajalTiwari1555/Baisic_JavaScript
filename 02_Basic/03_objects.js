@@ -22,7 +22,7 @@ console.log(typeof jsUser["lastLogin"]);
 //console.log(jsUser[mySym]);   // Value
 //console.log(typeof mySym);   // Symbol
 
-//Syntax :-  Object.freeze(object_name) , if you want to not hange the value of an object( any  Update in object)the we use it.
+//Syntax :-  Object.freeze(object_name) :-- (A frozen object can no longer be changed) and if you want to not hange the value of an object( any  Update in object)the we use it.
 jsUser.email= "SajjuthetradingLife@yahoo.com";
 // console.log("Email:",jsUser["email"]);
 // Object.freeze(jsUser);
