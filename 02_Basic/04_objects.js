@@ -86,16 +86,46 @@ const user =[
     }
 ]
 
-console.log(user[1].email);
+// console.log(user[1].email);
 try{
-console.log(user[4]["email"]);
+// console.log(user[4]["email"]);
 }catch(err){
-    console.log(err.message);
+    // console.log(err.message);
 }
 
 //5th problem :-- access the key/values of object
-console.table(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));  // minimum use in js
-console.log(tinderUser.hasOwnProperty("id")); //to return a boolean value
+// console.table(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));  // minimum use in js
+// console.log(tinderUser.hasOwnProperty("id")); //to return a boolean value
+
+// ....................DeStructured of any values  And JSON APIs.............
+
+const container ={
+    name :"Sajju",
+    Id :42,
+    job_Post:"Web Dev",
+}
+console.log(container.job_Post);   //that is simple access the value of objects
+console.log(container["job_Post"])  
+
+const {job_Post : jpost} = container    
+// console.log(job_Post)
+console.log(jpost)
+
+// ....................we are talking about APIs (small Intro Here )  JSON Format..............
+//json is like an object, not an object
+{
+   " name"="Sajju"
+   " coursename" ="Js_tutorial"
+    "price"= 999
+}
+   //json is also formatted in array
+[
+    {},
+    {},
+    {}
+]
+
+
