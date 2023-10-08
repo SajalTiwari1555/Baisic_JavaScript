@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <ul class="language">
+        <li>Java</li>
+    </ul>
+</body>
+<script>
+    // this is not optimize process repeat cycle each time whenever you call the function
+    function addLanguage(lang){
+       const li= document.createElement("li");
+       li.innerHTML=`${lang}`
+       document.querySelector(".language").appendChild(li);
+    
+    }
+//    addLanguage("javaScript");
+
+   //this process is recommended and optimize
+
+    const chai=(lang)=>{
+  const li=  document.createElement("li")
+  li.appendChild(document.createTextNode(lang))
+  document.querySelector(".language").appendChild(li)
+   }
+chai("python")
+
+//Edit
+const
+</script>
+</html>
