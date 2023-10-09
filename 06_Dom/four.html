@@ -28,8 +28,25 @@
   document.querySelector(".language").appendChild(li)
    }
 chai("python")
+chai("C++")
+chai("HTML")
+chai("CSS")
+chai("Javascript")
 
 //Edit
-const
+
+const secongLang=document.querySelector("li:nth-child(2)")
+const newLi=document.createElement("li")
+newLi.textContent="Golang";
+secongLang.replaceWith(newLi);
+
+//Edit
+const firstLang = document.querySelector("li:first-child")  //we get the reference to first child
+firstLang.outerHTML="<li>kotlin</li>"   //if you use outerHTML  then you must to identify with tag
+
+//Remove
+const lastLang=document.querySelector("li:last-child")
+lastLang.remove()
+
 </script>
 </html>
