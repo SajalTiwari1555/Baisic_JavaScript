@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <h1>Amazing Images</h1>
+    <br>
+    <ul>
+        <li ><img id="fest" style="width: 350px; height: 350px;" src="https://images.pexels.com/photos/18928507/pexels-photo-18928507/free-photo-of-fireworks-in-the-dark-sky-with-a-black-background.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="festival image"></li>
+        <!-- <li  ><img style="width: 349px; height: 350px" src="https://images.pexels.com/photos/18978811/pexels-photo-18978811/free-photo-of-young-redhead-in-a-leather-jacket-and-sunglasses-sitting-on-a-bench.png?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" onclick="console.log('hello')"/> </li> -->
+        <li  ><img style="width: 349px; height: 350px" src="https://images.pexels.com/photos/18978811/pexels-photo-18978811/free-photo-of-young-redhead-in-a-leather-jacket-and-sunglasses-sitting-on-a-bench.png?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""/> </li>
+    </ul>
+</body>
+ <Script>
+    // document.getElementById('fest').onclick=()=>{
+    //     console.log("hello"+"brother"+5);
+    //     alert("hey are you fool ?")
+    // }
+
+    // this is best method  using event lisstner method
+   const data1 = document.getElementById('fest');
+   data1.addEventListner('click', function(e){
+        console.log(e);
+        // alert("hii");
+    },false)
+ </Script>
+</html>
